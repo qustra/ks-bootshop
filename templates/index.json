@@ -15,6 +15,7 @@
         "slide_BP7d7i": {
           "type": "slide",
           "settings": {
+            "img_mobile": "shopify://shop_images/1.png",
             "img_desktop": "shopify://shop_images/7208b0443aeb81c374e9c6b2ae81858c.png",
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
