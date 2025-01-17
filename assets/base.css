@@ -644,7 +644,7 @@ hr {
 .navbar-brand:hover img, .navbar-brand:focus img {
   opacity: 0.85;
 }
-/*new navbr test*/
+/*new navbar*/
 @media screen and (max-width: 768px) {
     /* ודא שה-Navbar לא נדחף הצידה */
     .navbar {
