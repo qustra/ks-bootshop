@@ -1679,60 +1679,50 @@ a:hover .article-card-img-wrapper img {
 
 
 @media screen and (max-width: 768px) {
-    /* עיצוב כללי ל-Navbar */
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff; /* רקע לבן */
-        padding: 10px 15px;
+    /* שיפור ה-Navbar */
+    .site-header {
+        position: fixed;
+        top: 40px; /* מניעת חפיפה עם ה-Announcement Bar */
+        left: 0;
         width: 100%;
+        background-color: #ffffff;
+        z-index: 9999;
         border-bottom: 1px solid #ddd;
+        padding: 8px 15px;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    /* שמירה על הלוגו בגודל נכון */
+    /* מודעת המבצע העליונה - הקטנת הגובה */
+    .announcement-bar {
+        font-size: 13px; /* מקטין את הגופן */
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    /* יישור הלוגו והתפריט ההמבורגר */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* גודל לוגו סביר במובייל */
     .navbar-brand img {
-        max-width: 140px; /* גודל אחיד */
+        max-width: 120px;
         height: auto;
     }
 
-    /* קישורים בתפריט */
-    .navbar-nav {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-
-    .navbar-nav a {
-        font-size: 18px; /* גודל טקסט נוח */
-        padding: 12px;
-        color: #333;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    /* כפתור התפריט ההמבורגר */
+    /* כפתור תפריט ההמבורגר */
     .menu-toggle {
-        display: block;
         font-size: 26px;
         background: none;
         border: none;
         cursor: pointer;
-        margin-top: 5px;
+        padding: 5px;
     }
 
-    /* מניעת ריווח בעייתי */
-    .navbar-collapse {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    /* תפריט פתוח */
-    .navbar-collapse.show {
-        display: flex;
+    /* תיקון המרווח בין התוכן שמתחת */
+    .hero-section {
+        margin-top: 100px; /* מרחיק את התמונה כדי לא להידחס */
     }
 }
