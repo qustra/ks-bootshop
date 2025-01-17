@@ -1677,3 +1677,29 @@ a:hover .article-card-img-wrapper img {
   border-bottom-style: dashed;
   border-bottom-width: 1px;
 }
+
+/*בדיקה של navebar*/
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        max-width: 150px; /* גודל לוגו מותאם לנייד */
+    }
+
+    .navbar-menu {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-menu a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
