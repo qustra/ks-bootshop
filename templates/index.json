@@ -98,7 +98,7 @@
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 0,
+        "pt": 1,
         "pb": 0
       }
     },
@@ -178,8 +178,8 @@
             "btn_secondary_text": "",
             "btn_secondary_url": "",
             "btn_secondary_color": "btn-outline-primary",
-            "pt": 10,
-            "pb": 0
+            "pt": 3,
+            "pb": 3
           }
         }
       },
@@ -197,42 +197,25 @@
     "featured_collections_n3Br7m": {
       "type": "featured-collections",
       "blocks": {
-        "collection_7qMDmi": {
+        "collection_xpgkML": {
           "type": "collection",
           "settings": {
-            "collection": "hats",
-            "img": "shopify://shop_images/main-image-3_fad05c8b-fc14-4144-9ff2-2178c01ed42c.jpg",
-            "title": ""
-          }
-        },
-        "collection_77fqC6": {
-          "type": "collection",
-          "settings": {
-            "collection": "jelwery",
-            "img": "shopify://shop_images/main-image-4_7f54ede5-9841-462e-9f22-96d5d795766a.jpg",
-            "title": ""
-          }
-        },
-        "collection_b3ferb": {
-          "type": "collection",
-          "settings": {
-            "collection": "hoodies",
+            "collection": "גברים",
+            "img": "shopify://shop_images/1_82aa3862-532c-4506-97fb-300083e856c2.png",
             "title": ""
           }
         },
         "collection_KdHXk9": {
           "type": "collection",
           "settings": {
-            "collection": "women",
-            "img": "shopify://shop_images/main-image-6_3042ead3-7162-4760-af99-786341bc9179.jpg",
+            "collection": "נשים",
+            "img": "shopify://shop_images/2_030824bd-c065-42cb-ad51-dd64ac6da3f7.png",
             "title": ""
           }
         }
       },
       "block_order": [
-        "collection_7qMDmi",
-        "collection_77fqC6",
-        "collection_b3ferb",
+        "collection_xpgkML",
         "collection_KdHXk9"
       ],
       "settings": {
@@ -245,13 +228,13 @@
         "border_color": "border-body",
         "border_opacity": 10,
         "container_max_width": "",
-        "header_title": "Featured Collections",
+        "header_title": "",
         "header_title_font_size": "h2",
         "header_description": "",
         "header_description_font_size": "",
         "slider_speed": 300,
         "slider_navigation": false,
-        "slider_pagination": true,
+        "slider_pagination": false,
         "slider_pagination_type": "bullets",
         "slider_scrollbar": true,
         "slider_partial_slides_mobile": false,
@@ -265,9 +248,9 @@
         "collection_card_show_product_count": false,
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
-        "breakpoint_desktop": 4,
-        "pt": 11,
-        "pb": 11
+        "breakpoint_desktop": 2,
+        "pt": 12,
+        "pb": 0
       }
     },
     "separator_kfq8kz": {
