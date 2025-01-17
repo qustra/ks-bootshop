@@ -644,6 +644,24 @@ hr {
 .navbar-brand:hover img, .navbar-brand:focus img {
   opacity: 0.85;
 }
+/* הופך את ה-Navbar לאנגלית בלבד */
+.navbar {
+    direction: ltr !important; /* טקסט משמאל לימין */
+    text-align: left !important; /* מיישר את הטקסט לשמאל */
+    font-family: Arial, sans-serif !important; /* שימוש בפונט בינלאומי */
+}
+
+/* מוודא שהקישורים בתפריט באנגלית */
+.navbar a {
+    font-family: Arial, sans-serif !important;
+    text-transform: capitalize !important; /* שומר על תחילת מילה באות גדולה */
+}
+
+/* שינוי שפה ספציפית בתפריט */
+.navbar * {
+    unicode-bidi: plaintext !important;
+}
+
 /*
   Dropdown
 */
