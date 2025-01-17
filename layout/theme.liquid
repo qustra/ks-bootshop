@@ -1,6 +1,7 @@
 <!doctype html>
 <html 
   lang="{{ request.locale.iso_code }}"
+  dir="rtl"
   class="{% if request.design_mode %}design-mode{% endif %}">
 <head>
   <meta charset="utf-8">
@@ -17,8 +18,8 @@
 
   <title>
     {{ page_title }}
-    {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-    {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+    {%- if current_tags %} &ndash; {{ 'general.tagged' | t }} "{{ current_tags | join: ', ' }}"{% endif -%}
+    {%- if current_page != 1 %} &ndash; {{ 'general.page' | t }} {{ current_page }}{% endif -%}
     {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
   </title>
 
@@ -31,9 +32,32 @@
   {{ content_for_header }}
 
   {% render 'styles-scripts' %}
+  
+  <style>
+    /* התאמת ה-RTL */
+    body {
+      direction: rtl;
+      text-align: right;
+    }
+
+    nav, h1, h2, h3, p, button {
+      text-align: right;
+    }
+
+    /* התאמת תפריטים */
+    nav {
+      text-align: right;
+    }
+
+    /* התאמת כפתורים */
+    button {
+      text-align: center;
+      direction: rtl;
+    }
+  </style>
 </head>
 
-<body class="{{ request.page_type | prepend: 'page-type-' }}">
+<body class="rtl {{ request.page_type | prepend: 'page-type-' }}">
   <a class="visually-hidden-focusable" href="#main">
     {{ 'general.accessibility.skip_content' | t }}
   </a>
@@ -58,4 +82,3 @@
   %}
 </body>
 </html>
-    
