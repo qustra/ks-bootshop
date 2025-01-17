@@ -1676,3 +1676,63 @@ a:hover .article-card-img-wrapper img {
   border-bottom-style: dashed;
   border-bottom-width: 1px;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* עיצוב כללי ל-Navbar */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff; /* רקע לבן */
+        padding: 10px 15px;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* שמירה על הלוגו בגודל נכון */
+    .navbar-brand img {
+        max-width: 140px; /* גודל אחיד */
+        height: auto;
+    }
+
+    /* קישורים בתפריט */
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav a {
+        font-size: 18px; /* גודל טקסט נוח */
+        padding: 12px;
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* כפתור התפריט ההמבורגר */
+    .menu-toggle {
+        display: block;
+        font-size: 26px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    /* מניעת ריווח בעייתי */
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* תפריט פתוח */
+    .navbar-collapse.show {
+        display: flex;
+    }
+}
