@@ -17,19 +17,12 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "15% הנחה לוולנטין עם הקוד: vale25"
-          }
-        },
-        "slide_mwF4Tk": {
-          "type": "slide",
-          "settings": {
-            "announcement": "משלוח חינם מעל 150₪+"
+            "announcement": "משלוחים חינם | 1,000+ ישראלים שרכשו ונהנו | עם ישראל חי🇮🇱"
           }
         }
       },
       "block_order": [
-        "slide_j46kwk",
-        "slide_mwF4Tk"
+        "slide_j46kwk"
       ],
       "settings": {
         "bg_color": "bg-primary",
