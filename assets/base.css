@@ -1,3 +1,57 @@
+@media screen and (max-width: 768px) {
+    .site-header {
+        position: fixed !important;
+        top: 40px !important;
+        left: 0 !important;
+        width: 100% !important;
+        background-color: #ffffff !important;
+        z-index: 9999 !important;
+        border-bottom: 1px solid #ddd !important;
+        padding: 8px 15px !important;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .announcement-bar {
+        font-size: 13px !important;
+        padding: 5px 10px !important;
+        text-align: center !important;
+    }
+
+    .navbar {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .navbar-brand img {
+        max-width: 120px !important;
+        height: auto !important;
+    }
+
+    .menu-toggle {
+        font-size: 26px !important;
+        background: none !important;
+        border: none !important;
+        cursor: pointer !important;
+        padding: 5px !important;
+    }
+
+    .hero-section {
+        margin-top: 100px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*
   © 2024 KondaSoft
   https://www.kondasoft.com
@@ -1678,51 +1732,3 @@ a:hover .article-card-img-wrapper img {
 }
 
 
-@media screen and (max-width: 768px) {
-    /* שיפור ה-Navbar */
-    .site-header {
-        position: fixed;
-        top: 40px; /* מניעת חפיפה עם ה-Announcement Bar */
-        left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        z-index: 9999;
-        border-bottom: 1px solid #ddd;
-        padding: 8px 15px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    /* מודעת המבצע העליונה - הקטנת הגובה */
-    .announcement-bar {
-        font-size: 13px; /* מקטין את הגופן */
-        padding: 5px 10px;
-        text-align: center;
-    }
-
-    /* יישור הלוגו והתפריט ההמבורגר */
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    /* גודל לוגו סביר במובייל */
-    .navbar-brand img {
-        max-width: 120px;
-        height: auto;
-    }
-
-    /* כפתור תפריט ההמבורגר */
-    .menu-toggle {
-        font-size: 26px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 5px;
-    }
-
-    /* תיקון המרווח בין התוכן שמתחת */
-    .hero-section {
-        margin-top: 100px; /* מרחיק את התמונה כדי לא להידחס */
-    }
-}
