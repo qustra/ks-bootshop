@@ -265,6 +265,34 @@
         "pb": 10
       }
     },
+    "richtext_tVRm9a": {
+      "type": "richtext",
+      "custom_css": [],
+      "settings": {
+        "bg_color": "bg-secondary",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-white",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-white",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "מה הלקוחות שלנו אומרים עלינו:",
+        "title_font_size": "h2",
+        "description": "<p>אנחנו נרגשים לראות איך המסרים שלנו מגיעים לכל כך הרבה אנשים, מעוררים השראה, מפיצים אור ומשאירים חותם.<br/>כל חולצה שנבחרה היא לא רק פריט אופנה – היא סמל לכוחן של מילים וליכולת שלהן לשנות מציאות.</p><p>התגובות שלכם מחממות את הלב ומזכירות לנו למה התחלנו את הדרך הזו.<br/>הנה כמה מהביקורות שכתבו לנו לקוחות שכבר לובשים את המשמעות:</p>",
+        "description_font_size": "fs-xl",
+        "btn_primary_text": "",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 0,
+        "pb": 0
+      }
+    },
     "testimonials_eFtnyC": {
       "type": "testimonials",
       "blocks": {
@@ -331,6 +359,9 @@
         "item_BUkPE7",
         "item_DtBFNc"
       ],
+      "custom_css": [
+        "/* יישור הכותרת הראשית */h2.title.h1 {text-align: center !important; font-size: 26px !important; font-weight: bold !important; margin-bottom: 10px !important;}"
+      ],
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 0,
@@ -343,7 +374,7 @@
         "container_max_width": "",
         "header_title": "אל תשמעו רק מאיתנו!",
         "header_title_font_size": "h1",
-        "header_description": "<p>הנה ביקורות של הלקוחות שלנו!</p>",
+        "header_description": "",
         "header_description_font_size": "fs-xl",
         "slider_speed": 300,
         "slider_navigation": false,
@@ -451,6 +482,7 @@
     "media_with_text_xTY8gi",
     "featured_collections_n3Br7m",
     "separator_kfq8kz",
+    "richtext_tVRm9a",
     "testimonials_eFtnyC",
     "faq_7TT7z4"
   ]
