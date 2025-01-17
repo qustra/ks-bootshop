@@ -1748,3 +1748,18 @@ a:hover .article-card-img-wrapper img {
         font-weight: bold !important;
     }
 }
+@media screen and (max-width: 768px) {
+    /* הסתרת תפריט הדסקטופ במובייל */
+    .navbar .desktop {
+        display: none !important;
+    }
+
+    /* וידוא שתפריט המובייל מוצג */
+    .navbar .mobile {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+}
