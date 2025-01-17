@@ -17,7 +17,7 @@
         "bg_color": "bg-secondary",
         "bg_opacity": 81,
         "bg_gradient": "",
-        "text_color": "text-body",
+        "text_color": "text-white",
         "border_top_width": 1,
         "border_bottom_width": 0,
         "border_color": "border-secondary",
