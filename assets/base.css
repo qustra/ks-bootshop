@@ -644,63 +644,6 @@ hr {
 .navbar-brand:hover img, .navbar-brand:focus img {
   opacity: 0.85;
 }
-/*new navbar*/
-@media screen and (max-width: 768px) {
-    /* ודא שה-Navbar לא נדחף הצידה */
-    .navbar {
-        display: flex;
-        flex-direction: column; /* מסדר את האלמנטים בטור */
-        align-items: center;
-        text-align: center;
-        padding: 10px;
-    }
-
-    /* שמירה על הלוגו בגודל סביר */
-    .navbar-brand img {
-        max-width: 120px; /* מקטין את הלוגו */
-        height: auto;
-    }
-
-    /* התפריט במובייל */
-    .navbar-nav {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navbar-nav a {
-        padding: 10px;
-        font-size: 18px;
-    }
-
-    /* הכפתור של תפריט ההמבורגר */
-    .menu-toggle {
-        display: block;
-        font-size: 24px;
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-
-    /* תפריט נפתח */
-    .mobile-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: #fff;
-        border-top: 1px solid #ddd;
-    }
-
-    .mobile-menu.active {
-        display: flex; /* מציג את התפריט */
-    }
-
-    .mobile-menu a {
-        padding: 10px;
-        text-align: center;
-    }
-}
-
 /*
   Dropdown
 */
