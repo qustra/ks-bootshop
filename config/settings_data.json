@@ -12,7 +12,7 @@
     "color_primary": "#228bc8",
     "color_secondary": "#111111",
     "color_body_bg": "#ffffff",
-    "color_body_color": "#d2c1a8",
+    "color_body_color": "#000000",
     "container_max_width": 1350,
     "border_radius": 0.3,
     "logo": "shopify://shop_images/logo.png",
