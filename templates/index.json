@@ -66,6 +66,9 @@
     },
     "featured_products_nXJKQn": {
       "type": "featured-products",
+      "custom_css": [
+        "h2 {text-align: center !important; /* מיישר את הכותרת לאמצע */ font-size: 32px !important; /* שומר על גודל טקסט */ font-weight: bold !important; /* הופך את הכותרת לבולטת */ margin: 10px auto !important; /* מוסיף מרווחים מסביב */}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -76,11 +79,9 @@
         "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
-        "products": [
-          "קפוצון-positive-vibes"
-        ],
+        "products": [],
         "collection": "overall-clothing",
-        "limit": 19,
+        "limit": 14,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
         "header_title": "הנמכרים ביותר",
@@ -91,14 +92,106 @@
         "slider_navigation": false,
         "slider_pagination": false,
         "slider_pagination_type": "fraction",
-        "slider_scrollbar": true,
-        "slider_partial_slides_mobile": false,
-        "slider_autoplay": 0,
-        "breakpoint_mobile": 1,
+        "slider_scrollbar": false,
+        "slider_partial_slides_mobile": true,
+        "slider_autoplay": 3,
+        "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 10,
-        "pb": 11
+        "pt": 0,
+        "pb": 0
+      }
+    },
+    "featured_products_QMFcDz": {
+      "type": "featured-products",
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-align: center !important; /* מיישר את הכותרת לאמצע */ font-size: 32px !important; /* שומר על גודל טקסט */ font-weight: bold !important; /* הופך את הכותרת לבולטת */ margin: 10px auto !important; /* מוסיף מרווחים מסביב */}"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-primary",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "products": [],
+        "collection": "סטים",
+        "limit": 14,
+        "recommended_mode": true,
+        "recommended_mode_intent": "related",
+        "header_title": "20% הנחה על כל הסטים",
+        "header_title_font_size": "h3",
+        "header_description": "",
+        "header_description_font_size": "fs-md",
+        "slider_speed": 300,
+        "slider_navigation": false,
+        "slider_pagination": false,
+        "slider_pagination_type": "fraction",
+        "slider_scrollbar": false,
+        "slider_partial_slides_mobile": true,
+        "slider_autoplay": 3,
+        "breakpoint_mobile": 2,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 4,
+        "pt": 0,
+        "pb": 0
+      }
+    },
+    "media_with_text_xTY8gi": {
+      "type": "media-with-text",
+      "blocks": {
+        "row_JkMDbM": {
+          "type": "row",
+          "settings": {
+            "bg_color": "bg-secondary",
+            "bg_opacity": 5,
+            "bg_gradient": "",
+            "text_color": "text-body",
+            "border_top_width": 1,
+            "border_bottom_width": 1,
+            "border_color": "border-primary",
+            "border_opacity": 10,
+            "media_align_desktop": "",
+            "media_border": "img-thumbnail",
+            "img": "shopify://shop_images/hiker-running-up-beaten-track-between-the-trees.jpg",
+            "img_orientation": "ratio-4x3",
+            "video_ratio": "adapt",
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_muted": true,
+            "video_controls": true,
+            "external_video": "",
+            "text_align_mobile": "text-center",
+            "text_align_desktop": "text-desktop-center",
+            "subtitle": "",
+            "title": "ברוכים הבאים לקווסטרה",
+            "title_font_size": "h1",
+            "description": "<p>בקווסטרה, אנחנו מאמינים שלבגדים יש כוח להעביר מסר וליצור שינוי. כל פריט <br/>שאנחנו יוצרים נושא איתו ערכים של העצמה, תמיכה ושייכות. המותג שלנו נולד <br/>מתוך הרצון להזכיר לכל אדם שהוא <strong>מספיק בדיוק כפי שהוא</strong>, <br/>ולהפיץ חיוביות דרך אופנה. מעבר לסגנון, כל רכישה מסייעת לקהילה וליוזמות <br/>חברתיות שמקדמות קבלה, שוויון ועזרה הדדית. יחד, אנחנו לא רק לובשים בגדים – אנחנו לובשים מסר</p>",
+            "description_font_size": "fs-lg",
+            "btn_primary_text": "",
+            "btn_primary_url": "",
+            "btn_primary_color": "btn-primary",
+            "btn_secondary_text": "",
+            "btn_secondary_url": "",
+            "btn_secondary_color": "btn-outline-primary",
+            "pt": 10,
+            "pb": 0
+          }
+        }
+      },
+      "block_order": [
+        "row_JkMDbM"
+      ],
+      "custom_css": [
+        "h2,p {text-align: center !important; /* מיישר את הכותרת והטקסט לאמצע */ font-size: 18px !important; /* גודל טקסט לקריאות נוחה */ font-weight: normal !important; /* שומר על גופן קריא */ line-height: 1.6 !important; /* שיפור המרווח בין השורות */ margin: 10px auto !important; /* ריווח אחיד מסביב */ max-width: 90% !important; /* מונע שהטקסט יימתח יותר מדי */}",
+        "h2 {font-size: 24px !important; /* גודל כותרת */ font-weight: bold !important; /* מדגיש את הכותרת */ margin-bottom: 15px !important; /* ריווח בין הכותרת לטקסט */}"
+      ],
+      "settings": {
+        "container_max_width": ""
       }
     },
     "featured_collections_n3Br7m": {
@@ -177,64 +270,8 @@
         "pb": 11
       }
     },
-    "richtext_4miPYL": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 5,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 1,
-        "border_bottom_width": 1,
-        "border_color": "border-primary",
-        "border_opacity": 100,
-        "container_max_width": "900",
-        "text_align": "text-center",
-        "title": "",
-        "title_font_size": "h3",
-        "description": "<p>Add on optional description for this section</p>",
-        "description_font_size": "fs-md",
-        "btn_primary_text": "Primary button",
-        "btn_primary_url": "",
-        "btn_primary_color": "btn-primary",
-        "btn_secondary_text": "Secondary button",
-        "btn_secondary_url": "",
-        "btn_secondary_color": "btn-secondary",
-        "pt": 12,
-        "pb": 12
-      }
-    },
-    "richtext_AtYwxr": {
-      "type": "richtext",
-      "disabled": true,
-      "settings": {
-        "bg_color": "bg-primary",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 100,
-        "container_max_width": "900",
-        "text_align": "text-center",
-        "title": "Richtext",
-        "title_font_size": "h2",
-        "description": "<p>Add on optional description for this section</p>",
-        "description_font_size": "fs-md",
-        "btn_primary_text": "Primary button",
-        "btn_primary_url": "",
-        "btn_primary_color": "btn-white",
-        "btn_secondary_text": "Secondary button",
-        "btn_secondary_url": "",
-        "btn_secondary_color": "btn-light-white",
-        "pt": 11,
-        "pb": 11
-      }
-    },
     "separator_kfq8kz": {
       "type": "separator",
-      "disabled": true,
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 10,
@@ -243,54 +280,6 @@
         "container_max_width": "",
         "pt": 0,
         "pb": 10
-      }
-    },
-    "media_with_text_xTY8gi": {
-      "type": "media-with-text",
-      "blocks": {
-        "row_JkMDbM": {
-          "type": "row",
-          "settings": {
-            "bg_color": "bg-secondary",
-            "bg_opacity": 5,
-            "bg_gradient": "",
-            "text_color": "text-body",
-            "border_top_width": 1,
-            "border_bottom_width": 1,
-            "border_color": "border-primary",
-            "border_opacity": 10,
-            "media_align_desktop": "",
-            "media_border": "img-thumbnail",
-            "img_orientation": "ratio-9x16",
-            "video_ratio": "adapt",
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_muted": true,
-            "video_controls": true,
-            "external_video": "",
-            "text_align_mobile": "text-center",
-            "text_align_desktop": "text-desktop-start",
-            "subtitle": "Optional Subtitle",
-            "title": "Media with text",
-            "title_font_size": "h3",
-            "description": "<p>Either show an image, video (MP4) or an external video (YouTube). If no text block is shown, the media will take full section's space.</p>",
-            "description_font_size": "fs-md",
-            "btn_primary_text": "Primary button",
-            "btn_primary_url": "",
-            "btn_primary_color": "btn-primary",
-            "btn_secondary_text": "Secondary button",
-            "btn_secondary_url": "",
-            "btn_secondary_color": "btn-outline-primary",
-            "pt": 10,
-            "pb": 10
-          }
-        }
-      },
-      "block_order": [
-        "row_JkMDbM"
-      ],
-      "settings": {
-        "container_max_width": ""
       }
     },
     "testimonials_eFtnyC": {
@@ -475,11 +464,10 @@
   "order": [
     "hero_carousel_ehgKRp",
     "featured_products_nXJKQn",
-    "featured_collections_n3Br7m",
-    "richtext_4miPYL",
-    "richtext_AtYwxr",
-    "separator_kfq8kz",
+    "featured_products_QMFcDz",
     "media_with_text_xTY8gi",
+    "featured_collections_n3Br7m",
+    "separator_kfq8kz",
     "testimonials_eFtnyC",
     "faq_7TT7z4"
   ]
