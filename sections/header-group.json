@@ -58,8 +58,10 @@
           "type": "mobile",
           "settings": {
             "container_max_width": "",
-            "logo_height": 30,
-            "main_menu": "",
+            "logo": "shopify://shop_images/Qustra_2_.2.png",
+            "logo_transparent": "shopify://shop_images/Qustra_2_.2.png",
+            "logo_height": 24,
+            "main_menu": "link-list",
             "collections_menu": "",
             "social_icons": true,
             "pt": 2,
@@ -70,8 +72,9 @@
           "type": "desktop",
           "settings": {
             "container_max_width": "",
-            "logo_height": 32,
-            "main_menu": "",
+            "logo": "shopify://shop_images/Qustra_2_.2.png",
+            "logo_height": 48,
+            "main_menu": "link-list",
             "pt": 5,
             "pb": 5
           }
@@ -82,7 +85,7 @@
         "069e870e-aed4-4929-bf73-c0daca8be18e"
       ],
       "settings": {
-        "bg_color": "bg-body",
+        "bg_color": "bg-white",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-body",
@@ -90,7 +93,7 @@
         "border_bottom_width": 0,
         "border_color": "border-body",
         "border_opacity": 100,
-        "shadow": "shadow-sm"
+        "shadow": ""
       }
     }
   },
