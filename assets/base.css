@@ -1695,36 +1695,6 @@ a:hover .article-card-img-wrapper img {
   border-bottom-width: 1px;
 }
 
-/* מוודא שכל הכותרות הראשיות מיושרות לאמצע */
-h1, h2, h3, h4, h5, h6 {
-    text-align: center !important;
-    font-weight: bold !important;
-}
-
-/* יישור תת-כותרות וקטעים נלווים */
-p, span, div, blockquote {
-    text-align: center !important;
-    font-size: 18px !important;
-    line-height: 1.6 !important;
-    max-width: 90% !important;
-    margin: 0 auto !important;
-}
-
-/* התאמה למבני Shopify ספציפיים */
-.rich-text, .section-header, .shopify-section, .container, .text-container {
-    text-align: center !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-}
-
-/* התאמות נוספות לפסקאות ב-Shopify */
-.rich-text p, .shopify-section p, .container p {
-    text-align: center !important;
-    max-width: 80% !important;
-    margin: 0 auto !important;
-}
 
 
 
