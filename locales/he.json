@@ -258,6 +258,37 @@
       "shop_logo_accessibility_label": "הלוגו של {{shopName}}",
       "subscriptions_link_label": "מנויים",
       "settings_link": "הגדרות"
+    },
+    "account_information": {
+      "loading_accessibility_message": "טוען מידע על החשבון",
+      "loading_finished_accessibility_message": "טעינת מידע על החשבון הסתיימה",
+      "profile_card": {
+        "cancel": "בטל",
+        "cancel_accessibility_label": "ביטול עריכת פרופיל",
+        "edit": "ערוך",
+        "edit_accessibility_label": "ערוך פרופיל",
+        "email_help_text": "האימייל המשמש להתחברות לא ניתן לשינוי",
+        "first_name": "שם פרטי",
+        "last_name": "שם משפחה",
+        "no_name_provided_accessibility_label": "לא נוסף שם",
+        "phone_number_help_text": "מספר הטלפון המשמש להתחברות לא ניתן לשינוי",
+        "save": "שמור",
+        "save_accessibility_label": "שמור פרופיל",
+        "title": "פרופיל"
+      },
+      "profile_update_confirmation_message": "הפרופיל עודכן",
+      "title": "פרופיל",
+      "people": {
+        "pagination": {
+          "load_more": "טען עוד",
+          "load_more_accessibility_label": "טען עוד אנשים",
+          "loading_accessibility_label": "טוען אנשים"
+        }
+      },
+      "add_button": "הוסף"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "אפשרויות פריסה"
     }
   }
 }
