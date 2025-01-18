@@ -1710,6 +1710,6 @@ a:hover .article-card-img-wrapper img {
 }
 
 .navbar-logo img {
-    max-height: 40px !important; /* ניתן לשנות לפי הצורך */
+    max-height: 30px !important; /* ניתן לשנות לפי הצורך */
     width: auto !important;
 }
