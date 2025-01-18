@@ -1699,26 +1699,27 @@ a:hover .article-card-img-wrapper img {
 
 
 .header__heading {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: auto; /* מתאים את הרוחב אוטומטית */
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: auto !important;
+    max-width: 150px !important; /* אפשר לשנות לפי הצורך */
 }
 
 .header__inline-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: relative;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    position: relative !important;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    height: 60px; /* להתאים לגובה הבר */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    padding: 10px !important;
+    height: 60px !important; /* ודא שהתפריט בגובה קבוע */
 }
