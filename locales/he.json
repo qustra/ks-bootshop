@@ -289,6 +289,12 @@
     },
     "orders": {
       "list_layout_accessibility_label": "אפשרויות פריסה"
+    },
+    "errors": {
+      "order_not_found": {
+        "title": "הזמנה לא נמצאה"
+      },
+      "retry_action_label": "נסה שוב"
     }
   },
   "shopify": {
