@@ -187,7 +187,7 @@
     "property_view_file": "הראה קובץ",
     "applied_discounts": "הפעל הנחה",
     "subtotal": "סך הכל",
-    "taxes_shipping_at_checkout_html": "",
+    "taxes_shipping_at_checkout_html": "מסים ו<a href=\"/policies/shipping-policy\" target=\"_blank\">משלוח</a> יחושבו בקופה",
     "checkout": "מעבר לתשלום",
     "note": {
       "title": "הוסף בקשה להזמנה",
