@@ -206,5 +206,20 @@
     "gift_upsell": {
       "title": "הוסף עטיפת מתנה"
     }
+  },
+  "customer_accounts": {
+    "date": {
+      "range": "{{startDate}}–{{endDate}}",
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} בשעה {{time}}",
+        "lessThanOneMinuteAgo": "הרגע",
+        "lessThanOneWeekAgo": "{{weekday}} בשעה {{time}}",
+        "yesterday": "אתמול בשעה {{time}}",
+        "today": "היום בשעה {{time}}",
+        "tomorrow": "מחר בשעה {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} בשעה {{time}}",
+        "lessThanOneYearAway": "{{date}} בשעה {{time}}"
+      }
+    }
   }
 }
