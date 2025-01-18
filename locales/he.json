@@ -218,8 +218,46 @@
         "today": "היום בשעה {{time}}",
         "tomorrow": "מחר בשעה {{time}}",
         "lessThanOneWeekAway": "{{weekday}} בשעה {{time}}",
-        "lessThanOneYearAway": "{{date}} בשעה {{time}}"
+        "lessThanOneYearAway": "{{date}} בשעה {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} דקה אחורה",
+          "other": "{{count}} דקות אחורה"
+        }
       }
+    },
+    "enable_javascript": "כדי לצפות בחשבונך, הפעל JavaScript בהגדרות הדפדפן שלך או התחבר מדפדפן אחר.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "הסתר תפריט חשבון",
+        "label": "חשבון",
+        "show_accessibility_label": "הצג תפריט חשבון",
+        "nav_accessibility_label": "ניווט חשבון",
+        "open_menu_accessibility_label": "פתח ניווט חשבון",
+        "close_menu_accessibility_label": "סגור ניווט חשבון",
+        "loading_message": "טוען ניווט חשבון"
+      },
+      "action_menu_accessibility_label": "פעולות נוספות",
+      "close_menu_accessibility_label": "סגור ניווט ראשי",
+      "contact_email_subject": "פנייה מ-{{shopName}} חנות מקוונת",
+      "contact_link": "פרטי יצירת קשר",
+      "delete_confirmation": {
+        "cancel": "בטל",
+        "delete": "מחק"
+      },
+      "dismiss_toast": "סגור",
+      "document_title": "{{sectionName}} - {{shopName}} - חשבון",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "עבור לחנות",
+      "loading_message": "טוען...",
+      "log_out_link": "התנתק",
+      "logout_overlay_label": "מתנתק...",
+      "nav_label_accessibility_label": "ניווט ראשי",
+      "navigation_accessibility_message": "נווטת ל-{{sectionName}}",
+      "open_menu_accessibility_label": "פתח ניווט ראשי",
+      "orders_link_label": "הזמנות",
+      "shop_logo_accessibility_label": "הלוגו של {{shopName}}",
+      "subscriptions_link_label": "מנויים",
+      "settings_link": "הגדרות"
     }
   }
 }
