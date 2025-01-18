@@ -44,7 +44,7 @@
         "border_opacity": 100,
         "carousel_controls": false,
         "carousel_indicators": false,
-        "carousel_transition": "slide carousel-fade",
+        "carousel_transition": "slide",
         "carousel_transition_duration": 500,
         "carousel_autoplay": 5,
         "carousel_effect": "carousel-zoom-out",
