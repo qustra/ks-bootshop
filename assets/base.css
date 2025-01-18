@@ -1704,7 +1704,9 @@ a:hover .article-card-img-wrapper img {
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     width: auto !important;
-    max-width: 150px !important; /* אפשר לשנות לפי הצורך */
+    max-width: 150px !important; /* שנה לפי הצורך */
+    text-align: center !important;
+    display: block !important;
 }
 
 .header__inline-menu {
@@ -1718,8 +1720,17 @@ a:hover .article-card-img-wrapper img {
 .header {
     display: flex !important;
     align-items: center !important;
-    justify-content: space-between !important;
+    justify-content: center !important;
     position: relative !important;
     padding: 10px !important;
     height: 60px !important; /* ודא שהתפריט בגובה קבוע */
+}
+
+.site-header__logo {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
 }
