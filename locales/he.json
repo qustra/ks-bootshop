@@ -36,24 +36,15 @@
       "slide_no": "שקופית {{ number }}",
       "scroll_down": "גלול למטה"
     },
-    "blog": {
-      "empty": "לא נמצאו פוסטים!",
-      "count_articles": {
-        "one": "{{ count }} פוסט",
-        "other": "{{ count }} פוסטים"
-      },
-      "tags_btn": "סנן לפי תג",
-      "tags_title": "סנן פוסטים",
-      "tags_show_all": "הצג הכל",
-      "posted_in": "פורסם ב-"
-    },
-    "contact_form": {
-      "name": "שם",
-      "email": "אימייל",
-      "phone": "טלפון (אופציונלי)",
-      "message": "הודעה",
-      "send": "שלח",
-      "success": "תודה שפנית אלינו. נחזור אליך בהקדם האפשרי."
+    "password_page": {
+      "login_form_heading": "הכנס לחנות באמצעות סיסמה:",
+      "login_password_button": "הכנס באמצעות סיסמה",
+      "login_form_password_label": "סיסמה",
+      "login_form_password_placeholder": "הסיסמה שלך",
+      "login_form_error": "סיסמה שגויה!",
+      "login_form_submit": "הכנס",
+      "admin_link_html": "האם אתה בעל החנות? <a href=\"/admin\" class=\"link underlined-link\">התחבר כאן</a>",
+      "powered_by_shopify_html": "חנות זו תפעל באמצעות {{ shopify }}"
     },
     "search": {
       "title": "חיפוש",
@@ -65,199 +56,52 @@
       "products": "מוצרים",
       "collections": "אוספים",
       "articles": "פוסטים בבלוג",
-      "pages": "דפים",
-      "results": {
-        "one": "{{ count }} תוצאה נמצאה",
-        "other": "{{ count }} תוצאות נמצאו"
-      },
-      "search_for": "חפש \"{{ terms }}\"",
-      "search_page": {
-        "title": "חפש בחנות שלנו",
-        "title_search_performed": "תוצאות חיפוש",
-        "no_results": "לא נמצאו תוצאות עבור \"{{ terms }}\". בדוק את האיות או השתמש במילה אחרת.",
-        "results_with_count_and_term": {
-          "one": "{{ count }} תוצאה נמצאה עבור “{{ terms }}”",
-          "other": "{{ count }} תוצאות נמצאו עבור “{{ terms }}”"
-        },
-        "count_products": {
-          "one": "{{ count }} מוצר",
-          "other": "{{ count }} מוצרים"
+      "pages": "דפים"
+    },
+    "cart": {
+      "title": "עגלה",
+      "empty_html": "<p>העגלה שלך כרגע ריקה</p>",
+      "continue_shopping": "המשך קנייה",
+      "quantity": "כמות",
+      "subtotal": "סך הכל",
+      "checkout": "מעבר לתשלום"
+    },
+    "customer_accounts": {
+      "date": {
+        "range": "{{startDate}}–{{endDate}}",
+        "humanize": {
+          "lessThanOneYearAgo": "{{date}} בשעה {{time}}",
+          "lessThanOneMinuteAgo": "הרגע",
+          "lessThanOneWeekAgo": "{{weekday}} בשעה {{time}}",
+          "yesterday": "אתמול בשעה {{time}}",
+          "today": "היום בשעה {{time}}",
+          "tomorrow": "מחר בשעה {{time}}",
+          "lessThanOneWeekAway": "{{weekday}} בשעה {{time}}",
+          "lessThanOneYearAway": "{{date}} בשעה {{time}}",
+          "lessThanOneHourAgo": {
+            "one": "{{count}} דקה אחורה",
+            "other": "{{count}} דקות אחורה"
+          }
         }
-      }
-    },
-    "wishlist": {
-      "title": "רשימת משאלות",
-      "empty_html": "<p>רשימת המשאלות שלך ריקה כרגע</p>",
-      "continue_shopping": "המשך בקניות",
-      "wishlist": "רשימת משאלות",
-      "add": "הוסף לרשימת המשאלות",
-      "remove": "הסר מרשימת המשאלות"
-    },
-    "recently_viewed": {
-      "title": "נצפה לאחרונה",
-      "empty_html": "<p>הרשימה שלך ריקה כרגע</p>",
-      "continue_shopping": "המשך בקניות",
-      "remove_all": "הסר הכל"
-    },
-    "newsletter": {
-      "input_label": "הזן את כתובת האימייל שלך...",
-      "confirmation_text": "תודה שנרשמת! נשמור איתך על קשר בקרוב.",
-      "submit_button": "הירשם"
-    },
-    "404_page": {
-      "title": "404 - הדף לא נמצא",
-      "subtext": "הדף שחיפשת לא קיים",
-      "button": "חזור לדף הבית"
-    },
-    "times": {
-      "ago": "לפני",
-      "moments": "רגעים",
-      "second": "שנייה",
-      "seconds": "שניות",
-      "minute": "דקה",
-      "minutes": "דקות",
-      "hour": "שעה",
-      "hours": "שעות",
-      "day": "יום",
-      "days": "ימים",
-      "expired": "המבצע פג!"
-    },
-    "localization": {
-      "title": "מיקום"
-    },
-    "payment_icons": {
-      "secure": "תשלומים מאובטחים ומוגנים ב-100%"
-    },
-    "password_page": {
-      "input_label": "סיסמה",
-      "btn_label": "כניסה"
-    }
-  },
-  "collection": {
-    "empty_html": "לא נמצאו מוצרים! &nbsp; <a href=\"/collections/all\">הצג הכל »</a>",
-    "sort_by": "מיין לפי",
-    "count_products": {
-      "one": "{{ count }} מוצר",
-      "other": "{{ count }} מוצרים"
-    },
-    "filters": {
-      "btn_text": "סינון",
-      "title": "סינון",
-      "reset": "אפס",
-      "from": "מ",
-      "to": "עד",
-      "view_more": "הצג עוד",
-      "clear_filter": "נקה סינון",
-      "clear_all": "נקה את כל הסינונים",
-      "view_results": {
-        "one": "הצג {{ count }} מוצר",
-        "other": "הצג {{ count }} מוצרים"
-      }
-    }
-  },
-  "product": {
-    "add_to_cart": "הוסף לעגלה",
-    "buy_it_now": "קנה עכשיו",
-    "save": "שמור",
-    "sold_out": "אזל מהמלאי",
-    "unavilable": "לא זמין",
-    "quantity": "כמות",
-    "unavailable": "לא זמין",
-    "product_options": "אפשרויות מוצר",
-    "choose_options": "בחר אפשרויות",
-    "select_variant": "בחר וריאנט",
-    "quick_view": "תצוגה מהירה",
-    "regular_price": "מחיר רגיל",
-    "sale_price": "מחיר מבצע",
-    "stock_indicator": {
-      "low_stock_html": {
-        "one": "נותר רק <b>{{ count }} פריט</b> במלאי!",
-        "other": "נותרו רק <b>{{ count }} פריטים</b> במלאי!"
       },
-      "normal_stock_html": "כעת יש <b>{{ count }} פריטים</b> במלאי!",
-      "no_stock": "לצערנו, פריט זה אזל מהמלאי!",
-      "untracked_stock": "כעת פריט זה זמין במלאי"
+      "enable_javascript": "כדי לצפות בחשבונך, הפעל JavaScript בהגדרות הדפדפן שלך או התחבר מדפדפן אחר."
     }
   },
-  "cart": {
-    "title": "עגלה",
-    "empty_html": "<p>העגלה שלך כרגע ריקה</p>",
-    "continue_shopping": "המשך קנייה",
-    "quantity": "כמות",
-    "property_view_file": "הראה קובץ",
-    "applied_discounts": "הפעל הנחה",
-    "subtotal": "סך הכל",
-    "taxes_shipping_at_checkout_html": "מסים ו<a href=\"/policies/shipping-policy\" target=\"_blank\">משלוח</a> יחושבו בקופה",
-    "checkout": "מעבר לתשלום",
-    "note": {
-      "title": "הוסף בקשה להזמנה",
-      "label": "בקשה שלך...",
-      "button": "שמור בקשה",
-      "saved": "בקשה נשמרה"
-    },
-    "shipping_calculator": {
-      "title": "חישוב משלוח",
-      "country": "מדינה",
-      "province": "אזוק",
-      "zip": "מיקוד",
-      "btn_label": "חישוב",
-      "no_results": "לא נמצאו תעריפי משלוח!"
-    },
-    "gift_upsell": {
-      "title": "הוסף עטיפת מתנה"
+  "shop": {
+    "logo_label": "הלוגו של {{shopName}}"
+  },
+  "navigation": {
+    "orders": "הזמנות",
+    "subscriptions": "מנויים",
+    "settings": "הגדרות",
+    "delete_confirmation": {
+      "cancel": "בטל",
+      "delete": "מחק"
     }
   },
-  "customer_accounts": {
-    "date": {
-      "range": "{{startDate}}–{{endDate}}",
-      "humanize": {
-        "lessThanOneYearAgo": "{{date}} בשעה {{time}}",
-        "lessThanOneMinuteAgo": "הרגע",
-        "lessThanOneWeekAgo": "{{weekday}} בשעה {{time}}",
-        "yesterday": "אתמול בשעה {{time}}",
-        "today": "היום בשעה {{time}}",
-        "tomorrow": "מחר בשעה {{time}}",
-        "lessThanOneWeekAway": "{{weekday}} בשעה {{time}}",
-        "lessThanOneYearAway": "{{date}} בשעה {{time}}",
-        "lessThanOneHourAgo": {
-          "one": "{{count}} דקה אחורה",
-          "other": "{{count}} דקות אחורה"
-        }
-      }
-    },
-    "enable_javascript": "כדי לצפות בחשבונך, הפעל JavaScript בהגדרות הדפדפן שלך או התחבר מדפדפן אחר.",
-    "navigation_and_structure": {
-      "account_menu": {
-        "hide_accessibility_label": "הסתר תפריט חשבון",
-        "label": "חשבון",
-        "show_accessibility_label": "הצג תפריט חשבון",
-        "nav_accessibility_label": "ניווט חשבון",
-        "open_menu_accessibility_label": "פתח ניווט חשבון",
-        "close_menu_accessibility_label": "סגור ניווט חשבון",
-        "loading_message": "טוען ניווט חשבון"
-      },
-      "action_menu_accessibility_label": "פעולות נוספות",
-      "close_menu_accessibility_label": "סגור ניווט ראשי",
-      "contact_email_subject": "פנייה מ-{{shopName}} חנות מקוונת",
-      "contact_link": "פרטי יצירת קשר",
-      "delete_confirmation": {
-        "cancel": "בטל",
-        "delete": "מחק"
-      },
-      "dismiss_toast": "סגור",
-      "document_title": "{{sectionName}} - {{shopName}} - חשבון",
-      "generic_accessibility_label": "{{label}}: {{value}}",
-      "go_to_store_link": "עבור לחנות",
-      "loading_message": "טוען...",
-      "log_out_link": "התנתק",
-      "logout_overlay_label": "מתנתק...",
-      "nav_label_accessibility_label": "ניווט ראשי",
-      "navigation_accessibility_message": "נווטת ל-{{sectionName}}",
-      "open_menu_accessibility_label": "פתח ניווט ראשי",
-      "orders_link_label": "הזמנות",
-      "shop_logo_accessibility_label": "הלוגו של {{shopName}}",
-      "subscriptions_link_label": "מנויים",
-      "settings_link": "הגדרות"
-    }
+  "account": {
+    "loading_message": "טוען מידע על החשבון",
+    "loading_finished_message": "מידע על החשבון נטען",
+    "profile_update_confirmation": "הפרופיל עודכן"
   }
 }
