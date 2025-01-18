@@ -1698,3 +1698,27 @@ a:hover .article-card-img-wrapper img {
 
 
 
+.header__heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; /* מתאים את הרוחב אוטומטית */
+}
+
+.header__inline-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    height: 60px; /* להתאים לגובה הבר */
+}
