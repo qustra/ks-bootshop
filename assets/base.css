@@ -1701,7 +1701,8 @@ a:hover .article-card-img-wrapper img {
 .navbar-logo {
     position: absolute !important;
     left: 50% !important;
-    transform: translateX(-50%) !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
