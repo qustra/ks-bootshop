@@ -15,12 +15,14 @@
         "slide_eGdG3z": {
           "type": "slide",
           "settings": {
+            "img_mobile": "shopify://shop_images/1500_1_92668824-581f-4424-a829-7ed32e44b2d8.png",
+            "img_desktop": "shopify://shop_images/4.png",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "overlay_blur": 5,
-            "subtitle": "Optional Subtitle",
-            "title": "Welcome to our store",
-            "description": "<p>An optional description for this page</p>",
+            "overlay_opacity": 0,
+            "overlay_blur": 0,
+            "subtitle": "",
+            "title": "",
+            "description": "",
             "btn_primary_text": "",
             "btn_primary_url": "",
             "btn_secondary_text": "",
@@ -31,7 +33,6 @@
       "block_order": [
         "slide_eGdG3z"
       ],
-      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -45,10 +46,10 @@
         "carousel_indicators": true,
         "carousel_transition": "slide",
         "carousel_transition_duration": 500,
-        "carousel_autoplay": 5,
+        "carousel_autoplay": 0,
         "carousel_effect": "carousel-zoom-in",
-        "media_mobile_height": 400,
-        "media_desktop_height": 500,
+        "media_mobile_height": 600,
+        "media_desktop_height": 1000,
         "media_adapt": false,
         "media_full": false,
         "caption_max_width": "900",
@@ -65,7 +66,6 @@
     },
     "18e3bb8e-f1ba-421c-91c3-37c1c5b25a2a": {
       "type": "separator",
-      "disabled": true,
       "settings": {
         "bg_color": "bg-body text-body",
         "bg_opacity": 10,
