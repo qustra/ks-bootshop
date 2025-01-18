@@ -75,7 +75,7 @@
         "bg_gradient": "",
         "text_color": "text-secondary",
         "border_top_width": 0,
-        "border_bottom_width": 4,
+        "border_bottom_width": 0,
         "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
