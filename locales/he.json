@@ -10,201 +10,173 @@
 {
   "general": {
     "accessibility": {
-      "skip_content": "Skip to content",
-      "skip_product_content": "Skip to product content",
+      "skip_content": "דלג לתוכן",
+      "skip_product_content": "דלג לתוכן המוצר",
       "menu": "תפריט",
       "cart": "עגלה",
       "search": "חיפוש",
-      "wishlist": "Wishlist",
-      "recently_viewed": "לאחרונה נראה",
+      "wishlist": "רשימת משאלות",
+      "recently_viewed": "נצפה לאחרונה",
       "account": "חשבון",
       "localization": "מיקום",
       "previous": "הקודם",
       "next": "הבא",
-      "close": "לסגור",
-      "remove": "להוריד",
+      "close": "סגור",
+      "remove": "הסר",
       "quantity": "כמות",
-      "decrease_qty": "להוריד כמות",
-      "increase_qty": "להוסיף כמות",
-      "color_options": "אפשרות צבעים",
-      "social_media_links": "רשתות חברתיות",
-      "payment_methods": "Payment methods",
-      "cart_items": "Cart items",
-      "full_screen": "Full screen",
-      "pagination": "Pagination",
-      "announcements": "Announcements",
-      "slide_no": "Slide {{ number }}",
-      "scroll_down": "Scroll down"
+      "decrease_qty": "הפחת כמות",
+      "increase_qty": "הוסף כמות",
+      "color_options": "אפשרויות צבעים",
+      "social_media_links": "קישורים לרשתות חברתיות",
+      "payment_methods": "אמצעי תשלום",
+      "cart_items": "פריטים בעגלה",
+      "full_screen": "מסך מלא",
+      "pagination": "דפדוף",
+      "announcements": "הודעות",
+      "slide_no": "שקופית {{ number }}",
+      "scroll_down": "גלול למטה"
     },
     "blog": {
-      "empty": "No posts found!",
+      "empty": "לא נמצאו פוסטים!",
       "count_articles": {
-        "one": "{{ count }} post",
-        "other": "{{ count }} posts"
+        "one": "{{ count }} פוסט",
+        "other": "{{ count }} פוסטים"
       },
-      "tags_btn": "Filter by tag",
-      "tags_title": "Filter posts",
-      "tags_show_all": "View all",
-      "posted_in": "Posted in"
+      "tags_btn": "סנן לפי תג",
+      "tags_title": "סנן פוסטים",
+      "tags_show_all": "הצג הכל",
+      "posted_in": "פורסם ב-"
     },
     "contact_form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone (optional)",
-      "message": "Message",
-      "send": "Send",
-      "success": "Thanks for contacting us. We'll get back to you as soon as possible."
+      "name": "שם",
+      "email": "אימייל",
+      "phone": "טלפון (אופציונלי)",
+      "message": "הודעה",
+      "send": "שלח",
+      "success": "תודה שפנית אלינו. נחזור אליך בהקדם האפשרי."
     },
     "search": {
-      "title": "Search",
-      "empty_html": "<p>Start typing to see results</p>",
-      "continue_shopping": "Continue Shopping",
-      "input_label": "Search our store...",
-      "btn_label": "Search",
-      "suggestions": "Suggestions",
-      "products": "Products",
-      "collections": "Collections",
-      "articles": "Blog posts",
-      "pages": "Pages",
+      "title": "חיפוש",
+      "empty_html": "<p>התחל להקליד כדי לראות תוצאות</p>",
+      "continue_shopping": "המשך בקניות",
+      "input_label": "חפש בחנות שלנו...",
+      "btn_label": "חפש",
+      "suggestions": "הצעות",
+      "products": "מוצרים",
+      "collections": "אוספים",
+      "articles": "פוסטים בבלוג",
+      "pages": "דפים",
       "results": {
-        "one": "{{ count }} result found",
-        "other": "{{ count }} results found"
+        "one": "{{ count }} תוצאה נמצאה",
+        "other": "{{ count }} תוצאות נמצאו"
       },
-      "search_for": "Search for \"{{ terms }}\"",
+      "search_for": "חפש \"{{ terms }}\"",
       "search_page": {
-        "title": "Search our store",
-        "title_search_performed": "Search results",
-        "no_results": "No results found for \"{{ terms }}\". Check the spelling or use a different word or phrase.",
+        "title": "חפש בחנות שלנו",
+        "title_search_performed": "תוצאות חיפוש",
+        "no_results": "לא נמצאו תוצאות עבור \"{{ terms }}\". בדוק את האיות או השתמש במילה אחרת.",
         "results_with_count_and_term": {
-          "one": "{{ count }} result found for “{{ terms }}”",
-          "other": "{{ count }} results found for “{{ terms }}”"
+          "one": "{{ count }} תוצאה נמצאה עבור “{{ terms }}”",
+          "other": "{{ count }} תוצאות נמצאו עבור “{{ terms }}”"
         },
         "count_products": {
-          "one": "{{ count }} product",
-          "other": "{{ count }} products"
+          "one": "{{ count }} מוצר",
+          "other": "{{ count }} מוצרים"
         }
       }
     },
     "wishlist": {
-      "title": "Wishlist",
-      "empty_html": "<p>Your wishlist is currently empty</p>",
-      "continue_shopping": "Continue Shopping",
-      "wishlist": "Wishlist",
-      "add": "Add to wishlist",
-      "remove": "Remove from wishlist"
+      "title": "רשימת משאלות",
+      "empty_html": "<p>רשימת המשאלות שלך ריקה כרגע</p>",
+      "continue_shopping": "המשך בקניות",
+      "wishlist": "רשימת משאלות",
+      "add": "הוסף לרשימת המשאלות",
+      "remove": "הסר מרשימת המשאלות"
     },
     "recently_viewed": {
-      "title": "Recently Viewed",
-      "empty_html": "<p>Your list is currently empty</p>",
-      "continue_shopping": "Continue Shopping",
-      "remove_all": "Remove all"
+      "title": "נצפה לאחרונה",
+      "empty_html": "<p>הרשימה שלך ריקה כרגע</p>",
+      "continue_shopping": "המשך בקניות",
+      "remove_all": "הסר הכל"
     },
     "newsletter": {
-      "input_label": "Enter your email address...",
-      "confirmation_text": "Thanks for subscribing, you'll hear from us soon.",
-      "submit_button": "Subscribe"
+      "input_label": "הזן את כתובת האימייל שלך...",
+      "confirmation_text": "תודה שנרשמת! נשמור איתך על קשר בקרוב.",
+      "submit_button": "הירשם"
     },
     "404_page": {
-      "title": "404 - Page not found",
-      "subtext": "The page you were looking for does not exist",
-      "button": "Go back to homepage"
+      "title": "404 - הדף לא נמצא",
+      "subtext": "הדף שחיפשת לא קיים",
+      "button": "חזור לדף הבית"
     },
     "times": {
-      "ago": "ago",
-      "moments": "moments",
-      "second": "second",
-      "seconds": "seconds",
-      "minute": "minute",
-      "minutes": "minutes",
-      "hour": "hour",
-      "hours": "hours",
-      "day": "day",
-      "days": "days",
-      "expired": "Offer has expired!"
+      "ago": "לפני",
+      "moments": "רגעים",
+      "second": "שנייה",
+      "seconds": "שניות",
+      "minute": "דקה",
+      "minutes": "דקות",
+      "hour": "שעה",
+      "hours": "שעות",
+      "day": "יום",
+      "days": "ימים",
+      "expired": "המבצע פג!"
     },
     "localization": {
-      "title": "Localization"
+      "title": "מיקום"
     },
     "payment_icons": {
-      "secure": "100% secure & protected payments"
+      "secure": "תשלומים מאובטחים ומוגנים ב-100%"
     },
     "password_page": {
-      "input_label": "Password",
-      "btn_label": "Enter"
+      "input_label": "סיסמה",
+      "btn_label": "כניסה"
     }
   },
   "collection": {
-    "empty_html": "No products found! &nbsp; <a href=\"/collections/all\">View all »</a>",
-    "sort_by": "Sort by",
+    "empty_html": "לא נמצאו מוצרים! &nbsp; <a href=\"/collections/all\">הצג הכל »</a>",
+    "sort_by": "מיין לפי",
     "count_products": {
-      "one": "{{ count }} product",
-      "other": "{{ count }} products"
+      "one": "{{ count }} מוצר",
+      "other": "{{ count }} מוצרים"
     },
     "filters": {
-      "btn_text": "Filters",
-      "title": "Filters",
-      "reset": "Reset",
-      "from": "From",
-      "to": "To",
-      "view_more": "View more",
-      "clear_filter": "Clear filter",
-      "clear_all": "Clear all filters",
+      "btn_text": "סינון",
+      "title": "סינון",
+      "reset": "אפס",
+      "from": "מ",
+      "to": "עד",
+      "view_more": "הצג עוד",
+      "clear_filter": "נקה סינון",
+      "clear_all": "נקה את כל הסינונים",
       "view_results": {
-        "one": "View {{ count }} product",
-        "other": "View {{ count }} products"
+        "one": "הצג {{ count }} מוצר",
+        "other": "הצג {{ count }} מוצרים"
       }
     }
   },
   "product": {
-    "add_to_cart": "Add to cart",
-    "buy_it_now": "Buy it now",
-    "save": "Save",
-    "sold_out": "Sold out",
-    "unavilable": "Unavilable",
-    "quantity": "Quantity",
-    "unavailable": "Unavailable",
-    "product_options": "Product options",
-    "choose_options": "Choose options",
-    "select_variant": "Selecto variant",
-    "quick_view": "Quick view",
-    "regular_price": "Regular price",
-    "sale_price": "Sale price",
+    "add_to_cart": "הוסף לעגלה",
+    "buy_it_now": "קנה עכשיו",
+    "save": "שמור",
+    "sold_out": "אזל מהמלאי",
+    "unavilable": "לא זמין",
+    "quantity": "כמות",
+    "unavailable": "לא זמין",
+    "product_options": "אפשרויות מוצר",
+    "choose_options": "בחר אפשרויות",
+    "select_variant": "בחר וריאנט",
+    "quick_view": "תצוגה מהירה",
+    "regular_price": "מחיר רגיל",
+    "sale_price": "מחיר מבצע",
     "stock_indicator": {
       "low_stock_html": {
-        "one": "Only, <b>{{ count }} item</b> is in stock!",
-        "other": "Only, <b>{{ count }} items</b> are in stock!"
+        "one": "נותר רק <b>{{ count }} פריט</b> במלאי!",
+        "other": "נותרו רק <b>{{ count }} פריטים</b> במלאי!"
       },
-      "normal_stock_html": "Currently, <b>{{ count }} items</b> are in stock!",
-      "no_stock": "Unfortunately, this item is sold-out!",
-      "untracked_stock": "Currently, this item has stock"
-    }
-  },
-  "cart": {
-    "title": "Cart",
-    "empty_html": "<p>Your cart is currently empty</p>",
-    "continue_shopping": "Continue Shopping",
-    "quantity": "Quantity",
-    "property_view_file": "View file",
-    "applied_discounts": "Applied discounts",
-    "subtotal": "Subtotal",
-    "taxes_shipping_at_checkout_html": "Taxes &amp; <a href=\"/policies/shipping-policy\" target=\"_blank\">Shipping</a> calculated at checkout",
-    "checkout": "Checkout",
-    "note": {
-      "title": "Add a note to your order",
-      "label": "Your message...",
-      "button": "Save note",
-      "saved": "Note saved"
-    },
-    "shipping_calculator": {
-      "title": "Calculate shipping",
-      "country": "Country",
-      "province": "Province",
-      "zip": "Zip",
-      "btn_label": "Calculate",
-      "no_results": "No shipping rates found!"
-    },
-    "gift_upsell": {
-      "title": "Add gift wrapping"
+      "normal_stock_html": "כעת יש <b>{{ count }} פריטים</b> במלאי!",
+      "no_stock": "לצערנו, פריט זה אזל מהמלאי!",
+      "untracked_stock": "כעת פריט זה זמין במלאי"
     }
   }
 }
