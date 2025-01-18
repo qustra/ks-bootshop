@@ -1,17 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "collection_header_JKf7mh": {
+    "collection_header_Lz8bN3": {
       "type": "collection-header",
+      "custom_css": [
+        "h2 {text-align: center !important; /* מיישר את הכותרת לאמצע */ font-size: 50px !important; /* שומר על גודל טקסט */ font-weight: bold !important; /* הופך את הכותרת לבולטת */ margin: 10px auto !important; /* מוסיף מרווחים מסביב */}"
+      ],
       "settings": {
         "bg_color": "bg-primary",
-        "bg_opacity": 10,
+        "bg_opacity": 17,
         "bg_gradient": "",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
+        "text_color": "text-body",
+        "border_top_width": 3,
+        "border_bottom_width": 3,
         "border_color": "border-body",
         "border_opacity": 100,
-        "container_max_width": "600",
+        "container_max_width": "1000",
         "img_show": true,
         "img_overlay_color": "#000000",
         "img_overlay_opacity": 30,
@@ -19,8 +31,8 @@
         "title_font_size": "h2",
         "description_show": true,
         "description_font_size": "fs-md",
-        "pt": 12,
-        "pb": 12,
+        "pt": 8,
+        "pb": 8,
         "pt_desktop": 14,
         "pb_desktop": 14
       }
@@ -65,7 +77,7 @@
     }
   },
   "order": [
-    "collection_header_JKf7mh",
+    "collection_header_Lz8bN3",
     "collection_products_Fx3hb6",
     "da87b500-2710-4252-99e4-4bd5db55af39"
   ]
