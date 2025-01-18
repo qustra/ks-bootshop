@@ -178,5 +178,33 @@
       "no_stock": "לצערנו, פריט זה אזל מהמלאי!",
       "untracked_stock": "כעת פריט זה זמין במלאי"
     }
+  },
+  "cart": {
+    "title": "עגלה",
+    "empty_html": "<p>העגלה שלך כרגע ריקה</p>",
+    "continue_shopping": "המשך קנייה",
+    "quantity": "כמות",
+    "property_view_file": "הראה קובץ",
+    "applied_discounts": "הפעל הנחה",
+    "subtotal": "סך הכל",
+    "taxes_shipping_at_checkout_html": "",
+    "checkout": "מעבר לתשלום",
+    "note": {
+      "title": "הוסף בקשה להזמנה",
+      "label": "בקשה שלך...",
+      "button": "שמור בקשה",
+      "saved": "בקשה נשמרה"
+    },
+    "shipping_calculator": {
+      "title": "חישוב משלוח",
+      "country": "מדינה",
+      "province": "אזוק",
+      "zip": "מיקוד",
+      "btn_label": "חישוב",
+      "no_results": "לא נמצאו תעריפי משלוח!"
+    },
+    "gift_upsell": {
+      "title": "הוסף עטיפת מתנה"
+    }
   }
 }
